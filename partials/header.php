@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -37,7 +37,7 @@
                     <div class="header-navbar">
                         <div class="header-brand">
                             <div class="logo">
-                                <a href="index.php">
+                                <a href="index">
                                     <img class="logo-light logo-img" src="assets/images/logo/logo.png"
                                         alt="Corporate Logo">
                                     <img class="logo-dark logo-img" src="assets/images/logo/logo.png"
@@ -49,13 +49,13 @@
                         <div class="header-mainnav">
                             <nav class="mainmenu-nav">
                                 <ul class="mainmenu">
-                                    <li><a href="index.php">Home</a>
+                                    <li><a href="index">Home</a>
 
-                                    <li><a href="about.php">About</a>
+                                    <li><a href="about">About</a>
 
-                                    <li><a href="course-detail.php">Course</a>
+                                    <li><a href="course-details">Course</a>
 
-                                    <li><a href="contact.php">Contact</a>
+                                    <li><a href="contact">Contact</a>
 
                                     <li></li>
                                     
@@ -65,7 +65,7 @@
                         <div class="header-right">
                             <ul class="header-action">
                                 <li class="header-btn">
-                                    <button onclick="window.dialog.showModal();" href="contact-us.php"
+                                    <button onclick="window.dialog.showModal();" href="contact-us"
                                         class="edu-btn btn-medium btn-gradient ms-5 apply-now">Enroll Now
 
                                     </button>
@@ -84,7 +84,7 @@
                 <div class="inner">
                     <div class="header-top">
                         <div class="logo">
-                            <a href="index.php">
+                            <a href="index">
                                 <img class="logo-light" src="assets/images/logo/logo-color.png" alt="Corporate Logo">
                                 <img class="logo-dark" src="assets/images/logo/logo-color.png" alt="Corporate Logo">
                             </a>
@@ -96,10 +96,10 @@
                         </div>
                     </div>
                     <ul class="mainmenu">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="course-detail.php">Course</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="course-details">Course</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

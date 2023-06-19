@@ -903,7 +903,7 @@ Custom Row
     }
 }
 
-#edublink-preloader {
+#inodes-preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -917,7 +917,7 @@ Custom Row
     transition: all 1.5s ease-out;
 }
 
-#edublink-preloader.loaded .preloader-close-btn-wraper {
+#inodes-preloader.loaded .preloader-close-btn-wraper {
     bottom: 200%;
 }
 
@@ -964,8 +964,8 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
+    -webkit-animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
+    animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
 }
 
 .preloader-spin-2 {
@@ -977,13 +977,13 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
+    -webkit-animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
+    animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
     -webkit-animation-delay: -1.0s;
     animation-delay: -1.0s;
 }
 
-@-webkit-keyframes edublink-preloader-bounce-animation {
+@-webkit-keyframes inodes-preloader-bounce-animation {
 
     0%,
     100% {
@@ -997,7 +997,7 @@ Custom Row
     }
 }
 
-@keyframes edublink-preloader-bounce-animation {
+@keyframes inodes-preloader-bounce-animation {
 
     0%,
     100% {
@@ -2059,7 +2059,7 @@ input[type="radio"]:checked~label::before {
 /*----------------------
     Animation  
 -----------------------*/
-.edublink-animated-shape {
+.inodes-animated-shape {
     position: relative;
     z-index: 9;
 }
@@ -2480,7 +2480,7 @@ input[type="radio"]:checked~label::before {
     animation: rotateIt 11s linear infinite;
 }
 
-@-webkit-keyframes edublink-vsm-y-move {
+@-webkit-keyframes inodes-vsm-y-move {
     0% {
         -webkit-transform: translate(0, -30%);
         transform: translate(0, -30%);
@@ -2492,7 +2492,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-vsm-y-move {
+@keyframes inodes-vsm-y-move {
     0% {
         -webkit-transform: translate(0, -30%);
         transform: translate(0, -30%);
@@ -2504,7 +2504,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-vsm-y-reverse-move {
+@-webkit-keyframes inodes-vsm-y-reverse-move {
     0% {
         -webkit-transform: translate(0, 30%);
         transform: translate(0, 30%);
@@ -2516,7 +2516,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-vsm-y-reverse-move {
+@keyframes inodes-vsm-y-reverse-move {
     0% {
         -webkit-transform: translate(0, 30%);
         transform: translate(0, 30%);
@@ -2528,7 +2528,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-sm-x-move {
+@-webkit-keyframes inodes-sm-x-move {
     0% {
         -webkit-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
@@ -2540,7 +2540,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-sm-x-move {
+@keyframes inodes-sm-x-move {
     0% {
         -webkit-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
@@ -2552,7 +2552,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-sm-x-reverse-move {
+@-webkit-keyframes inodes-sm-x-reverse-move {
     0% {
         -webkit-transform: translate(50%, 0);
         transform: translate(50%, 0);
@@ -2564,7 +2564,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-sm-x-reverse-move {
+@keyframes inodes-sm-x-reverse-move {
     0% {
         -webkit-transform: translate(50%, 0);
         transform: translate(50%, 0);
@@ -2576,7 +2576,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-rotate-y {
+@-webkit-keyframes inodes-rotate-y {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -2588,7 +2588,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-rotate-x {
+@-webkit-keyframes inodes-rotate-x {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -2600,7 +2600,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-rotate-x {
+@keyframes inodes-rotate-x {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -2612,7 +2612,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-rotate-y {
+@keyframes inodes-rotate-y {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -2624,7 +2624,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom1 {
+@-webkit-keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
@@ -2636,7 +2636,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom2 {
+@-webkit-keyframes inodes-zoom2 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -2648,7 +2648,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-zoom2 {
+@keyframes inodes-zoom2 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -2660,7 +2660,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom1 {
+@-webkit-keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -2672,7 +2672,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-zoom1 {
+@keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -13791,7 +13791,7 @@ body .tpd-size-medium .tpd-content {
     }
 }
 
-.features-box.features-style-2 .edublink-svg-animate svg path {
+.features-box.features-style-2 .inodes-svg-animate svg path {
     stroke: #ffffff !important;
     max-width: 38px;
 }
@@ -14697,8 +14697,8 @@ only screen and (max-width: 1199px) {
 }
 
 .hero-banner.hero-style-1 .banner-thumbnail .shape-group .shape-1 {
-    -webkit-animation: edublink-sm-x-move 3.5s alternate infinite linear;
-    animation: edublink-sm-x-move 3.5s alternate infinite linear;
+    -webkit-animation: inodes-sm-x-move 3.5s alternate infinite linear;
+    animation: inodes-sm-x-move 3.5s alternate infinite linear;
 }
 
 .hero-banner.hero-style-1 .shape-7 {
@@ -17586,7 +17586,7 @@ only screen and (max-width: 767px) {
 /*-------------------
   Splash Page Styles 
 ---------------------*/
-.edublink-landing-page #edublink-preloader {
+.inodes-landing-page #inodes-preloader {
     display: none !important;
 }
 
@@ -17617,15 +17617,15 @@ only screen and (max-width: 767px) {
     line-height: 90px;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn {
     padding-top: 30px;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn {
     padding: 0;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn:hover {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn:hover {
     color: var(--color-white);
 }
 
@@ -28525,7 +28525,7 @@ body.dark-mode {
 
 .dark-mode .hero-banner .banner-content p,
 .dark-mode .popup-mobile-menu .inner .header-top .close-menu .close-button,
-.dark-mode .edublink-vue-mobile-popup-menu .inner .header-top .close-menu .close-button,
+.dark-mode .inodes-vue-mobile-popup-menu .inner .header-top .close-menu .close-button,
 .dark-mode .header-action .mobile-menu-bar .hamberger-button,
 .dark-mode .edu-course .content .course-rating .rating-count,
 .dark-mode .edu-course .content .course-meta li,
@@ -28746,8 +28746,8 @@ body.dark-mode {
 .dark-mode .edu-campus-area .campus-image-gallery .shape-1 span,
 .dark-mode .edu-campus-area .campus-content .shape-4 span,
 .dark-mode .edu-event-area .shape-group li.shape-2 span,
-.dark-mode .edublink-vue-mobile-popup-menu .inner .header-top,
-.dark-mode .edublink-vue-mobile-popup-menu .mainmenu li+li,
+.dark-mode .inodes-vue-mobile-popup-menu .inner .header-top,
+.dark-mode .inodes-vue-mobile-popup-menu .mainmenu li+li,
 .dark-mode .about-style-3 .about-image-gallery .shape-group li.shape-4 span,
 .dark-mode .home-four-course .shape-group .shape-2 span,
 .dark-mode .hero-banner.hero-style-4 .shape-group li.shape-8 span,
@@ -29145,11 +29145,11 @@ body.dark-mode {
     color: var(--color-white);
 }
 
-.dark-mode #edublink-preloader {
+.dark-mode #inodes-preloader {
     background: var(--dark-bg-color);
 }
 
-.dark-mode #edublink-preloader .preloader-close-btn-wraper .preloader-close-btn {
+.dark-mode #inodes-preloader .preloader-close-btn-wraper .preloader-close-btn {
     background: #1C252F;
     color: var(--color-white);
 }
@@ -35010,7 +35010,7 @@ Custom Row
     }
 }
 
-#edublink-preloader {
+#inodes-preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -35024,7 +35024,7 @@ Custom Row
     transition: all 1.5s ease-out;
 }
 
-#edublink-preloader.loaded .preloader-close-btn-wraper {
+#inodes-preloader.loaded .preloader-close-btn-wraper {
     bottom: 200%;
 }
 
@@ -35071,8 +35071,8 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
+    -webkit-animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
+    animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
 }
 
 .preloader-spin-2 {
@@ -35084,13 +35084,13 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
+    -webkit-animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
+    animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
     -webkit-animation-delay: -1.0s;
     animation-delay: -1.0s;
 }
 
-@-webkit-keyframes edublink-preloader-bounce-animation {
+@-webkit-keyframes inodes-preloader-bounce-animation {
 
     0%,
     100% {
@@ -35104,7 +35104,7 @@ Custom Row
     }
 }
 
-@keyframes edublink-preloader-bounce-animation {
+@keyframes inodes-preloader-bounce-animation {
 
     0%,
     100% {
@@ -36166,7 +36166,7 @@ input[type="radio"]:checked~label::before {
 /*----------------------
     Animation  
 -----------------------*/
-.edublink-animated-shape {
+.inodes-animated-shape {
     position: relative;
     z-index: 9;
 }
@@ -36587,7 +36587,7 @@ input[type="radio"]:checked~label::before {
     animation: rotateIt 11s linear infinite;
 }
 
-@-webkit-keyframes edublink-vsm-y-move {
+@-webkit-keyframes inodes-vsm-y-move {
     0% {
         -webkit-transform: translate(0, -30%);
         transform: translate(0, -30%);
@@ -36599,7 +36599,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-vsm-y-move {
+@keyframes inodes-vsm-y-move {
     0% {
         -webkit-transform: translate(0, -30%);
         transform: translate(0, -30%);
@@ -36611,7 +36611,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-vsm-y-reverse-move {
+@-webkit-keyframes inodes-vsm-y-reverse-move {
     0% {
         -webkit-transform: translate(0, 30%);
         transform: translate(0, 30%);
@@ -36623,7 +36623,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-vsm-y-reverse-move {
+@keyframes inodes-vsm-y-reverse-move {
     0% {
         -webkit-transform: translate(0, 30%);
         transform: translate(0, 30%);
@@ -36635,7 +36635,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-sm-x-move {
+@-webkit-keyframes inodes-sm-x-move {
     0% {
         -webkit-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
@@ -36647,7 +36647,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-sm-x-move {
+@keyframes inodes-sm-x-move {
     0% {
         -webkit-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
@@ -36659,7 +36659,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-sm-x-reverse-move {
+@-webkit-keyframes inodes-sm-x-reverse-move {
     0% {
         -webkit-transform: translate(50%, 0);
         transform: translate(50%, 0);
@@ -36671,7 +36671,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-sm-x-reverse-move {
+@keyframes inodes-sm-x-reverse-move {
     0% {
         -webkit-transform: translate(50%, 0);
         transform: translate(50%, 0);
@@ -36683,7 +36683,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-rotate-y {
+@-webkit-keyframes inodes-rotate-y {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -36695,7 +36695,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-rotate-x {
+@-webkit-keyframes inodes-rotate-x {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -36707,7 +36707,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-rotate-x {
+@keyframes inodes-rotate-x {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -36719,7 +36719,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-rotate-y {
+@keyframes inodes-rotate-y {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -36731,7 +36731,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom1 {
+@-webkit-keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
@@ -36743,7 +36743,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom2 {
+@-webkit-keyframes inodes-zoom2 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -36755,7 +36755,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-zoom2 {
+@keyframes inodes-zoom2 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -36767,7 +36767,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom1 {
+@-webkit-keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -36779,7 +36779,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-zoom1 {
+@keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -47898,7 +47898,7 @@ body .tpd-size-medium .tpd-content {
     }
 }
 
-.features-box.features-style-2 .edublink-svg-animate svg path {
+.features-box.features-style-2 .inodes-svg-animate svg path {
     stroke: #ffffff !important;
     max-width: 38px;
 }
@@ -48804,8 +48804,8 @@ only screen and (max-width: 1199px) {
 }
 
 .hero-banner.hero-style-1 .banner-thumbnail .shape-group .shape-1 {
-    -webkit-animation: edublink-sm-x-move 3.5s alternate infinite linear;
-    animation: edublink-sm-x-move 3.5s alternate infinite linear;
+    -webkit-animation: inodes-sm-x-move 3.5s alternate infinite linear;
+    animation: inodes-sm-x-move 3.5s alternate infinite linear;
 }
 
 .hero-banner.hero-style-1 .shape-7 {
@@ -51693,7 +51693,7 @@ only screen and (max-width: 767px) {
 /*-------------------
   Splash Page Styles 
 ---------------------*/
-.edublink-landing-page #edublink-preloader {
+.inodes-landing-page #inodes-preloader {
     display: none !important;
 }
 
@@ -51724,15 +51724,15 @@ only screen and (max-width: 767px) {
     line-height: 90px;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn {
     padding-top: 30px;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn {
     padding: 0;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn:hover {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn:hover {
     color: var(--color-white);
 }
 
@@ -62632,7 +62632,7 @@ body.dark-mode {
 
 .dark-mode .hero-banner .banner-content p,
 .dark-mode .popup-mobile-menu .inner .header-top .close-menu .close-button,
-.dark-mode .edublink-vue-mobile-popup-menu .inner .header-top .close-menu .close-button,
+.dark-mode .inodes-vue-mobile-popup-menu .inner .header-top .close-menu .close-button,
 .dark-mode .header-action .mobile-menu-bar .hamberger-button,
 .dark-mode .edu-course .content .course-rating .rating-count,
 .dark-mode .edu-course .content .course-meta li,
@@ -62853,8 +62853,8 @@ body.dark-mode {
 .dark-mode .edu-campus-area .campus-image-gallery .shape-1 span,
 .dark-mode .edu-campus-area .campus-content .shape-4 span,
 .dark-mode .edu-event-area .shape-group li.shape-2 span,
-.dark-mode .edublink-vue-mobile-popup-menu .inner .header-top,
-.dark-mode .edublink-vue-mobile-popup-menu .mainmenu li+li,
+.dark-mode .inodes-vue-mobile-popup-menu .inner .header-top,
+.dark-mode .inodes-vue-mobile-popup-menu .mainmenu li+li,
 .dark-mode .about-style-3 .about-image-gallery .shape-group li.shape-4 span,
 .dark-mode .home-four-course .shape-group .shape-2 span,
 .dark-mode .hero-banner.hero-style-4 .shape-group li.shape-8 span,
@@ -63252,11 +63252,11 @@ body.dark-mode {
     color: var(--color-white);
 }
 
-.dark-mode #edublink-preloader {
+.dark-mode #inodes-preloader {
     background: var(--dark-bg-color);
 }
 
-.dark-mode #edublink-preloader .preloader-close-btn-wraper .preloader-close-btn {
+.dark-mode #inodes-preloader .preloader-close-btn-wraper .preloader-close-btn {
     background: #1C252F;
     color: var(--color-white);
 }
@@ -69117,7 +69117,7 @@ Custom Row
     }
 }
 
-#edublink-preloader {
+#inodes-preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -69131,7 +69131,7 @@ Custom Row
     transition: all 1.5s ease-out;
 }
 
-#edublink-preloader.loaded .preloader-close-btn-wraper {
+#inodes-preloader.loaded .preloader-close-btn-wraper {
     bottom: 200%;
 }
 
@@ -69178,8 +69178,8 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
+    -webkit-animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
+    animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
 }
 
 .preloader-spin-2 {
@@ -69191,13 +69191,13 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
+    -webkit-animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
+    animation: inodes-preloader-bounce-animation 2.0s infinite ease-in-out;
     -webkit-animation-delay: -1.0s;
     animation-delay: -1.0s;
 }
 
-@-webkit-keyframes edublink-preloader-bounce-animation {
+@-webkit-keyframes inodes-preloader-bounce-animation {
 
     0%,
     100% {
@@ -69211,7 +69211,7 @@ Custom Row
     }
 }
 
-@keyframes edublink-preloader-bounce-animation {
+@keyframes inodes-preloader-bounce-animation {
 
     0%,
     100% {
@@ -70273,7 +70273,7 @@ input[type="radio"]:checked~label::before {
 /*----------------------
     Animation  
 -----------------------*/
-.edublink-animated-shape {
+.inodes-animated-shape {
     position: relative;
     z-index: 9;
 }
@@ -70694,7 +70694,7 @@ input[type="radio"]:checked~label::before {
     animation: rotateIt 11s linear infinite;
 }
 
-@-webkit-keyframes edublink-vsm-y-move {
+@-webkit-keyframes inodes-vsm-y-move {
     0% {
         -webkit-transform: translate(0, -30%);
         transform: translate(0, -30%);
@@ -70706,7 +70706,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-vsm-y-move {
+@keyframes inodes-vsm-y-move {
     0% {
         -webkit-transform: translate(0, -30%);
         transform: translate(0, -30%);
@@ -70718,7 +70718,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-vsm-y-reverse-move {
+@-webkit-keyframes inodes-vsm-y-reverse-move {
     0% {
         -webkit-transform: translate(0, 30%);
         transform: translate(0, 30%);
@@ -70730,7 +70730,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-vsm-y-reverse-move {
+@keyframes inodes-vsm-y-reverse-move {
     0% {
         -webkit-transform: translate(0, 30%);
         transform: translate(0, 30%);
@@ -70742,7 +70742,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-sm-x-move {
+@-webkit-keyframes inodes-sm-x-move {
     0% {
         -webkit-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
@@ -70754,7 +70754,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-sm-x-move {
+@keyframes inodes-sm-x-move {
     0% {
         -webkit-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
@@ -70766,7 +70766,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-sm-x-reverse-move {
+@-webkit-keyframes inodes-sm-x-reverse-move {
     0% {
         -webkit-transform: translate(50%, 0);
         transform: translate(50%, 0);
@@ -70778,7 +70778,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-sm-x-reverse-move {
+@keyframes inodes-sm-x-reverse-move {
     0% {
         -webkit-transform: translate(50%, 0);
         transform: translate(50%, 0);
@@ -70790,7 +70790,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-rotate-y {
+@-webkit-keyframes inodes-rotate-y {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -70802,7 +70802,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-rotate-x {
+@-webkit-keyframes inodes-rotate-x {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -70814,7 +70814,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-rotate-x {
+@keyframes inodes-rotate-x {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -70826,7 +70826,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-rotate-y {
+@keyframes inodes-rotate-y {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -70838,7 +70838,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom1 {
+@-webkit-keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
@@ -70850,7 +70850,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom2 {
+@-webkit-keyframes inodes-zoom2 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -70862,7 +70862,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-zoom2 {
+@keyframes inodes-zoom2 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -70874,7 +70874,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@-webkit-keyframes edublink-zoom1 {
+@-webkit-keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -70886,7 +70886,7 @@ input[type="radio"]:checked~label::before {
     }
 }
 
-@keyframes edublink-zoom1 {
+@keyframes inodes-zoom1 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -82005,7 +82005,7 @@ body .tpd-size-medium .tpd-content {
     }
 }
 
-.features-box.features-style-2 .edublink-svg-animate svg path {
+.features-box.features-style-2 .inodes-svg-animate svg path {
     stroke: #ffffff !important;
     max-width: 38px;
 }
@@ -82911,8 +82911,8 @@ only screen and (max-width: 1199px) {
 }
 
 .hero-banner.hero-style-1 .banner-thumbnail .shape-group .shape-1 {
-    -webkit-animation: edublink-sm-x-move 3.5s alternate infinite linear;
-    animation: edublink-sm-x-move 3.5s alternate infinite linear;
+    -webkit-animation: inodes-sm-x-move 3.5s alternate infinite linear;
+    animation: inodes-sm-x-move 3.5s alternate infinite linear;
 }
 
 .hero-banner.hero-style-1 .shape-7 {
@@ -85800,7 +85800,7 @@ only screen and (max-width: 767px) {
 /*-------------------
   Splash Page Styles 
 ---------------------*/
-.edublink-landing-page #edublink-preloader {
+.inodes-landing-page #inodes-preloader {
     display: none !important;
 }
 
@@ -85831,15 +85831,15 @@ only screen and (max-width: 767px) {
     line-height: 90px;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn {
     padding-top: 30px;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn {
     padding: 0;
 }
 
-.pv-header-style .edublink-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn:hover {
+.pv-header-style .inodes-vue-mobile-popup-menu .mainmenu li.header-btn .edu-btn:hover {
     color: var(--color-white);
 }
 
@@ -96739,7 +96739,7 @@ body.dark-mode {
 
 .dark-mode .hero-banner .banner-content p,
 .dark-mode .popup-mobile-menu .inner .header-top .close-menu .close-button,
-.dark-mode .edublink-vue-mobile-popup-menu .inner .header-top .close-menu .close-button,
+.dark-mode .inodes-vue-mobile-popup-menu .inner .header-top .close-menu .close-button,
 .dark-mode .header-action .mobile-menu-bar .hamberger-button,
 .dark-mode .edu-course .content .course-rating .rating-count,
 .dark-mode .edu-course .content .course-meta li,
@@ -96960,8 +96960,8 @@ body.dark-mode {
 .dark-mode .edu-campus-area .campus-image-gallery .shape-1 span,
 .dark-mode .edu-campus-area .campus-content .shape-4 span,
 .dark-mode .edu-event-area .shape-group li.shape-2 span,
-.dark-mode .edublink-vue-mobile-popup-menu .inner .header-top,
-.dark-mode .edublink-vue-mobile-popup-menu .mainmenu li+li,
+.dark-mode .inodes-vue-mobile-popup-menu .inner .header-top,
+.dark-mode .inodes-vue-mobile-popup-menu .mainmenu li+li,
 .dark-mode .about-style-3 .about-image-gallery .shape-group li.shape-4 span,
 .dark-mode .home-four-course .shape-group .shape-2 span,
 .dark-mode .hero-banner.hero-style-4 .shape-group li.shape-8 span,
@@ -97359,11 +97359,11 @@ body.dark-mode {
     color: var(--color-white);
 }
 
-.dark-mode #edublink-preloader {
+.dark-mode #inodes-preloader {
     background: var(--dark-bg-color);
 }
 
-.dark-mode #edublink-preloader .preloader-close-btn-wraper .preloader-close-btn {
+.dark-mode #inodes-preloader .preloader-close-btn-wraper .preloader-close-btn {
     background: #1C252F;
     color: var(--color-white);
 }

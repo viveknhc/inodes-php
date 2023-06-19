@@ -47,7 +47,7 @@
         <div class="features-area-2">
             <div class="container-fluid">
                 <div class="features-grid-wrap">
-                    <div class="features-box features-style-2 edublink-svg-animate">
+                    <div class="features-box features-style-2 inodes-svg-animate">
                         <div class="icon">
                             <img class="svgInject" src="assets/images/animated-svg-icons/online-class.svg"
                                 alt="animated icon">
@@ -56,7 +56,7 @@
                             <h5 class="title"><span>Live</span> projects</h5>
                         </div>
                     </div>
-                    <div class="features-box features-style-2 edublink-svg-animate">
+                    <div class="features-box features-style-2 inodes-svg-animate">
                         <div class="icon">
                             <img class="svgInject" src="assets/images/animated-svg-icons/instructor.svg"
                                 alt="animated icon">
@@ -65,7 +65,7 @@
                             <h5 class="title"><span>Portfolio</span> development</h5>
                         </div>
                     </div>
-                    <div class="features-box features-style-2 edublink-svg-animate">
+                    <div class="features-box features-style-2 inodes-svg-animate">
                         <div class="icon certificate">
                             <img class="svgInject" src="assets/images/animated-svg-icons/certificate.svg"
                                 alt="animated icon">
@@ -74,7 +74,7 @@
                             <h5 class="title"><span>AI</span> Based Learnging</h5>
                         </div>
                     </div>
-                    <div class="features-box features-style-2 edublink-svg-animate">
+                    <div class="features-box features-style-2 inodes-svg-animate">
                         <div class="icon">
                             <img class="svgInject" src="assets/images/animated-svg-icons/user.svg" alt="animated icon">
                         </div>
@@ -83,7 +83,7 @@
                         </div>
                     </div>
 
-                    <div class="features-box features-style-2 edublink-svg-animate">
+                    <div class="features-box features-style-2 inodes-svg-animate">
                         <div class="icon">
                             <img class="svgInject" src="assets/images/animated-svg-icons/user.svg" alt="animated icon">
                         </div>
@@ -291,7 +291,7 @@
                         <div class="col-lg-6">
                             <div class="section-title section-left sal-animate" data-sal-delay="150"
                                 data-sal="slide-left" data-sal-duration="800">
-                                <h2 class="title">Get Your Quality <br> Skills Certificate Through <br> EduBlink</h2>
+                                <h2 class="title">Get Your Quality <br> Skills Certificate Through <br> Inodes Digital Academy</h2>
                                 <button onclick="window.dialog.showModal();" class="edu-btn btn-secondary">Enroll Now<i
                                         class="icon-4"></i></button>
                             </div>
@@ -349,8 +349,8 @@
 
     <!-- Testimonial -->
     <!-- 
-    <div class="testimonial-area-10 gap-top-equal photography-testimonial edublink-animated-shape testimonial">
-        <div class="container edublink-animated-shape">
+    <div class="testimonial-area-10 gap-top-equal photography-testimonial inodes-animated-shape testimonial">
+        <div class="container inodes-animated-shape">
             <div class="testimonial-heading-area">
                 <div class="section-title section-center sal-animate" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                     <span class="pre-title">Testimonials</span>

@@ -63,16 +63,17 @@
                             <h4 class="title">Get In Touch</h4>
                             <p>Fill out this form for booking a consultant advising session.</p>
                         </div>
-                        <form class="rnt-contact-form rwt-dynamic-form" id="contact-form" method="POST" action="https://edublink.html.devsblink.com/mail.php">
+                        <form class="rnt-contact-form rwt-dynamic-form" id="contact-form" method="POST" action="#">
                             <div class="row row--10">
                                 <div class="form-group col-12">
                                     <input type="text" name="contact-name" id="contact-name" placeholder="Your name">
                                 </div>
-                                <div class="form-group col-12">
-                                    <input type="email" name="contact-email" id="contact-email" placeholder="Enter your email">
-                                </div>
+                                
                                 <div class="form-group col-12">
                                     <input type="tel" name="contact-phone" id="contact-phone" placeholder="Phone number">
+                                </div>
+                                <div class="form-group col-12">
+                                    <input type="email" name="contact-email" id="contact-email" placeholder="Enter your email">
                                 </div>
                                 <div class="form-group col-12">
                                     <textarea name="contact-message" id="contact-message" cols="30" rows="4" placeholder="Your message"></textarea>

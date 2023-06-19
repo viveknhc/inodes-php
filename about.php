@@ -14,7 +14,7 @@
 
                         <span class="hero-sub-heading">Learn From The Agency Experts </span>
                         <div class="mt-5">
-                            <a href="contact-us.php" class="edu-btn btn-medium btn-gradient enroll-now">ENROLL
+                            <a href="contact" class="edu-btn btn-medium btn-gradient enroll-now">ENROLL
                                 NOW</a>
                         </div>
                     </div>

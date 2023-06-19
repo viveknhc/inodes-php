@@ -14,7 +14,7 @@
 
                         <span class="hero-sub-heading">Learn From The Agency Experts </span>
                         <div class="mt-5">
-                            <a href="contact-us.php" class="edu-btn btn-medium btn-gradient enroll-now">ENROLL
+                            <a href="contact" class="edu-btn btn-medium btn-gradient enroll-now">ENROLL
                                 NOW</a>
                         </div>
                     </div>
@@ -71,14 +71,14 @@
                             </div>
                             <h3 class="heading-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">Requirements</h3>
                             <ul class="mb--90 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                <li>No prior knowledge of Wordpress is required as everything will be covered in this course.</li>
+                                <li>No prior knowledge of language is required as everything will be covered in this course.</li>
                                 <li>Basic HTML and CSS knowledge helps, but isn't a must-have</li>
-                                <li>You don't need any coding experience at all. That is the beauty of Wordpress.</li>
-                                <li>Basic JavaScript knowledge is required</li>
+                                <li>You don't need any coding experience at all. </li>
+                                
                             </ul>
                          
                         </div>
-                        <div class="course-curriculam mb--90">
+                        <!-- <div class="course-curriculam mb--90">
                             <h3 class="heading-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">Topics for This Course</h3>
                             <p data-sal-delay="150" data-sal="slide-up" data-sal-duration="800" class="sal-animate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua.</p>
                             <div class="accordion edu-accordion" id="accordionExample" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
@@ -473,7 +473,7 @@
 
 
                             </div>
-                        </div>
+                        </div> -->
                         
                     </div>
                 </div>
@@ -481,12 +481,12 @@
                     <div class="course-sidebar-3">
                         <div class="edu-course-widget widget-course-summery">
                             <div class="inner">
-                                <div class="thumbnail">
+                                <!-- <div class="thumbnail">
                                     <img src="assets/images/course/course-46.jpg" alt="Courses">
                                     <a href="#" class="play-btn video-popup-activation"><i class="icon-18"></i></a>
-                                </div>
+                                </div> -->
                                 <div class="content">
-                                    <h4 class="widget-title">Course Includes:</h4>
+                                    <h4 class="widget-title">Course Highlights:</h4>
                                     <ul class="course-item">
                                         
                                         
@@ -509,7 +509,7 @@
                                         </li>
                                     </ul>
                                     <div class="read-more-btn">
-                                        <a href="#" class="edu-btn">Enroll Now<i class="icon-4"></i></a>
+                                        <a onclick="window.dialog.showModal();" class="edu-btn">Enroll Now<i class="icon-4"></i></a>
                                     </div>
                                 </div>
                             </div>
